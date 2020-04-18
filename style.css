@@ -17,7 +17,7 @@ body {
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-    text-align: center;
+    display: flex;
   }
   
   h1,
@@ -25,6 +25,7 @@ body {
   h3,
   p {
     margin-bottom: 20px;
+    color: #777777;
   }
   
   p:last-child {
@@ -81,8 +82,9 @@ body {
   nav {
     float: right;
     margin-top: 25px;
+    display: flex;
   }
-  
+
   nav a {
     display: inline-block;
     padding-left: 15px;
@@ -216,5 +218,9 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+  }
+  
+  #sticky-footer {
+    flex-shrink: none;
   }
   

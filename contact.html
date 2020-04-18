@@ -3,22 +3,41 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <title>Contact | Nicole Apsche</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-  <header id="masthead">
+  <!-- <header id="masthead"> -->
     <div class="container">
       <a href="index.html" id="logo">Nicole Apsche</a>
-      <nav>
+      <!-- <nav>
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="contact.html">Contact</a>
+      </nav> -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Nicole</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
-  </header>
+  <!-- </header> -->
 
   <div id="main-container" class="container">
     <section class="main-section">
@@ -46,9 +65,9 @@
 
   </div>
 
-  <footer>
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
     <div class="container">
-      Copyright &copy; 
+      <small>Copyright &copy; Nicole Apsche</small> 
     </div>
   </footer>
 </body>
